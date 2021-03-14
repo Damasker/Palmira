@@ -1,0 +1,195 @@
+.Header_2 {
+  text-align: center;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Header_3 {
+  width: 20%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 5%;
+}
+
+.Palmira-logo {
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Header_3_1 .Header_3_2 .Header_3_3 {
+  display: flex;
+  background-color: #ffffff;
+}
+
+.S-logo {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+}
+
+.l-logo {
+  height: 30px;
+  width: 30px;
+}
+
+.l-logo_2 {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+}
+
+.Header_3_4 {
+  background-color: #ffffff;
+  width: 100px;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Body_menu {
+  background-color: #ffffff;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Banner_1 {
+  width: 96.3%;
+}
+
+.Banner_1_img {
+  width: 96.3%;
+  margin-left: 50px;
+}
+
+.Main_1_1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.Main_1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.Prodact_1_img {
+  margin-top: 59px;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.Main_1_2 {
+  margin-left: 10%;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0px;
+}
+
+.Add_Catalog {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #af7c57;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.PDF_cat {
+  margin-right: 20px;
+}
+
+.Elite_Portioned {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 50px;
+}
+.ElitePorTea_h {
+  margin-bottom: 0%;
+  text-align: center;
+}
+.ElitePorTea_p {
+  width: 90%;
+  text-align: center;
+}
+.Elite_Portioned_Pic_All {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 350px;
+  width: 100vh;
+}
+
+.Elite_Portioned_Pic {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  height: 90%;
+  width: 45%;
+  margin-left: 40px;
+}
+.Elite_Portioned_Pic_1 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  height: 90%;
+  width: 45%;
+  margin-left: 10px;
+}
+
+.Elite_Portioned_Pic_text {
+  text-align: center;
+}
+
+.Flash_Tips {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 50px;
+}
+.Flash_Tips_h {
+  margin-bottom: 0%;
+  text-align: center;
+}
+.Flash_Tips_p {
+  width: 90%;
+  text-align: center;
+}
+.Flash_Tips_Pic_All {
+  display: flex;
+  flex-direction: row;
+  width: 100vh;
+  height: 350px;
+}
+
+.Flash_Tips_Pic {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  height: 90%;
+  width: 45%;
+  margin-left: 40px;
+}
+.Flash_Tips_Pic_1 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  height: 90%;
+  width: 45%;
+  margin-left: 25%;
+}
