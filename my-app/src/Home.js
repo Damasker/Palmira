@@ -1,5 +1,5 @@
 import React from "react"
-import './App.css';
+import './Home.css';
 import Palmira from './Palmira.svg';
 import Faceb from './facebook1.svg';
 import Insta from './instagram1.svg';
@@ -16,16 +16,21 @@ import Elite_Portioned_Pic1 from './Elite_Portioned_Pic1.jpg';
 import Elite_Portioned_Pic2 from './Elite_Portioned_Pic2.jpg';
 import Elite_Portioned_Pic3 from './Elite_Portioned_Pic3.jpg';
 import Elite_Portioned_Pic4 from './Elite_Portioned_Pic4.jpg';
-
 import Flash_Tips_Pic1 from './Flash_Tips_Pic1.jpg';
 import Flash_Tips_Pic2 from './Flash_Tips_Pic2.jpg';
 import Flash_Tips_Pic3 from './Flash_Tips_Pic3.jpg';
+import Button_l from './Button_l.svg';
+import Button_r from './Button_r.svg';
+import Popular_img from './Popular.jpg';
+import Gifts_Pic1 from './Gifts_1.jpg';
+import Gifts_Pic2 from './Gifts_2.jpg';
+import Gifts_Pic3 from './Gifts_3.jpg';
 
 
-function App() {
+function Home() {
   return (
 
-    <div>
+    <div className="Func_Main">
     <header className="Header">
       
 
@@ -111,8 +116,53 @@ function App() {
 </div>
 </div>
 
+<div className="Popular">
+<h3 className="Popular_h" >ПОПУЛЯРНІ ТОВАРИ</h3>
+<p className="Popular_p">Найпопулярніші смаки чаю ТМ «Palmira» у зручному пакуванні. Ідеальне рішення для барів, ресторанів, кафе, готелів, кав’ярень.</p>
+<div className="Popular_Pic_All"> 
+<div className="Popular_button_l"><img src={Button_l} className="Button_l_img" alt="button"/></div> 
+<div className="Popular_Pic"><img src={Popular_img} className="Popular_img" alt="img"/></div>
+<div className="Popular_Pic"><img src={Popular_img} className="Popular_img" alt="img"/></div>
+<div className="Popular_Pic"><img src={Popular_img} className="Popular_img" alt="img"/></div>
+<div className="Popular_Pic"><img src={Popular_img} className="Popular_img" alt="img"/></div>
+<div className="Popular_Pic"><img src={Popular_img} className="Popular_img" alt="img"/></div>
+<div className="Popular_button_r"><img src={Button_r} className="Button_r_img" alt="button"/></div>
+</div>
+</div>
+
+<div className="Gifts">
+<h3 className="Gifts_h" >АКСЕСУАРИ, ПОСУД, ПОДАРУНКОВІ НАБОРИ</h3>
+<p className="Gifts_p">Зручні полиці в різних кольорових рішеннях для вашого інтер’єру. Дійсно чудовий посуд для чаювання вдома або у закладі. Смачні та гарно запаковані подарункові набори для створення чудового святкового настрою близьким та друзям.</p>
+<div className="Gifts_Pic_All">  
+<div className="Gifts_Pic_1"><img src={Gifts_Pic1} className="Gifts_img" alt="img"/><p className="Gifts_Pic_text">АКСЕСУАРИ</p></div>
+<div className="Gifts_Pic"><img src={Gifts_Pic2} className="Gifts_img" alt="img"/><p className="Gifts_Pic_text">ПОСУД</p></div>
+<div className="Gifts_Pic"><img src={Gifts_Pic3} className="Gifts_img" alt="img"/><p className="Gifts_Pic_text">ПОДАРУНКОВІ НАБОРИ</p></div>
+</div>
+</div>
+
+<footer className="Footer">
+      
+
+<div className="Footer_2">
+
+<div className="Footer_3">
+  <div className="Footer3_1"><p>050 555-0-333, 096 282-88-90<br></br>Передзвоніть мені<br></br>Форма зворотнього зв'язку</p> </div>
+  <div className="Footer_3_1"><p>Договір оферти</p></div>
+</div>
+<div className="Footer_3"><img src={Palmira} className="Palmira-logo" alt="logo" /></div>
+<div className="Footer_3">
+<div className="Footer3_2"><div className="Footer3_2_1"></div>
+  <p>Оптовим покупцям<br></br>ПРО НАС<br></br>ПРОДУКЦІЯ ЧАЙ<br></br>ЦУКОР<br></br>АКЦІІ</p>
+  <div className="Footer3_2_2"><p> <br></br>ЕКСПОРТ<br></br>ДОСТАВКА ТА ОПЛАТА<br></br>СПІВПРАЦЯ<br></br>КОНТАКТИ</p></div> </div>
+</div>
+
+
+
+</div>
+</footer>
+
 </div>
   );
 }
 
-export default App;
+export default Home;

@@ -1,0 +1,123 @@
+.Header_2 {
+  text-align: center;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Header_3 {
+  width: 20%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 5%;
+}
+
+.Palmira-logo {
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Header_3_1 .Header_3_2 .Header_3_3 {
+  display: flex;
+  background-color: #ffffff;
+}
+
+.S-logo {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+}
+
+.l-logo {
+  height: 30px;
+  width: 30px;
+}
+
+.l-logo_2 {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+}
+
+.Header_3_4 {
+  background-color: #ffffff;
+  width: 100px;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Body_menu {
+  background-color: #ffffff;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.BodyCont {
+  display: flex;
+  flex-direction: row;
+}
+
+.ExportTea_d1 {
+  margin-left: 2%;
+  width: 38%;
+}
+
+.ExportTea_d2 {
+  width: 45%;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+.Map {
+  width: 90%;
+}
+.Footer {
+  width: 80vh;
+}
+
+.Footer_2 {
+  text-align: left;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Footer_3 {
+  width: 30%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 5%;
+}
+.Footer3_2 {
+  width: 90%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+.Footer3_2_1 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+.Footer3_2_2 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
