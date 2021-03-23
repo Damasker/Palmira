@@ -1,3 +1,11 @@
+.Header {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .Header_2 {
   text-align: center;
   background-color: #ffffff;
@@ -89,7 +97,7 @@
 }
 
 .Main_1_2 {
-  margin-left: 10%;
+  margin-left: 13%;
   width: 40%;
   display: flex;
   justify-content: flex-end;
@@ -111,7 +119,7 @@
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 94%;
   margin-left: 50px;
 }
 .ElitePorTea_h {
@@ -119,7 +127,7 @@
   text-align: center;
 }
 .ElitePorTea_p {
-  width: 90%;
+  width: 100%;
   text-align: center;
 }
 .Elite_Portioned_Pic_All {
@@ -135,17 +143,17 @@
   flex-direction: column;
   border: 2px solid #e5e5e5;
   border-radius: 10px;
-  height: 90%;
-  width: 45%;
-  margin-left: 40px;
+  height: 85%;
+  width: 41%;
+  margin-left: 50px;
 }
 .Elite_Portioned_Pic_1 {
   display: flex;
   flex-direction: column;
   border: 2px solid #e5e5e5;
   border-radius: 10px;
-  height: 90%;
-  width: 45%;
+  height: 85%;
+  width: 41%;
   margin-left: 10px;
 }
 
@@ -157,7 +165,7 @@
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 96%;
   margin-left: 50px;
 }
 .Flash_Tips_h {
@@ -165,7 +173,7 @@
   text-align: center;
 }
 .Flash_Tips_p {
-  width: 90%;
+  width: 96%;
   text-align: center;
 }
 .Flash_Tips_Pic_All {
@@ -192,131 +200,4 @@
   height: 90%;
   width: 45%;
   margin-left: 25%;
-}
-
-.Popular {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.Popular_h {
-  margin-bottom: 0%;
-  text-align: center;
-}
-.Popular_p {
-  width: 90%;
-  text-align: center;
-  margin-bottom: 50px;
-}
-.Popular_Pic_All {
-  display: flex;
-  flex-direction: row;
-  width: 80vh;
-}
-.Popular_button_l {
-  width: 20px;
-  height: 40px;
-  margin-top: 100px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.Popular_button_r {
-  width: 20px;
-  height: 40px;
-  margin-top: 100px;
-  margin-left: 40px;
-  margin-right: 10px;
-}
-.Popular_Pic {
-  height: 200px;
-  width: 200px;
-  margin-left: 20px;
-}
-
-.Gifts {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  margin-left: 50px;
-}
-.Gifts_h {
-  margin-bottom: 0%;
-  text-align: center;
-}
-.Gifts_p {
-  width: 90%;
-  text-align: center;
-}
-.Gifts_Pic_All {
-  display: flex;
-  flex-direction: row;
-  width: 80vh;
-  height: 350px;
-}
-
-.Gifts_Pic {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid #e5e5e5;
-  border-radius: 10px;
-  height: 250px;
-  width: 300px;
-  margin-left: 7%;
-}
-.Gifts_Pic_1 {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid #e5e5e5;
-  border-radius: 10px;
-  height: 250px;
-  width: 300px;
-  margin-left: 150px;
-}
-
-.Gifts_Pic_text {
-  text-align: center;
-}
-
-.Footer {
-  width: 80vh;
-}
-
-.Footer_2 {
-  text-align: left;
-  background-color: #ffffff;
-  width: 100vw;
-  height: 250px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.Footer_3 {
-  width: 30%;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin-left: 5%;
-}
-.Footer3_2 {
-  width: 90%;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-}
-.Footer3_2_1 {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-}
-
-.Footer3_2_2 {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  margin-left: 20px;
 }
