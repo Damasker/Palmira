@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom";
 import './Home.css';
 import Palmira from './Palmira.svg';
 import Faceb from './facebook1.svg';
@@ -69,7 +70,8 @@ function Home() {
 
 <div className="Body_menu">
 <p>ПРО НАС</p>
-<p>ПРОДУКЦІЯ ЧАЙ</p>
+<Link
+  to="/teacup">ПРОДУКЦІЯ ЧАЙ</Link>
 <p>САХАР</p>
 <p>АКЦІЇ</p>
 <p>ДОСАВКА ТА ОПЛАТА</p>
@@ -153,7 +155,10 @@ function Home() {
 <div className="Footer_3">
 <div className="Footer3_2"><div className="Footer3_2_1"></div>
   <p>Оптовим покупцям<br></br>ПРО НАС<br></br>ПРОДУКЦІЯ ЧАЙ<br></br>ЦУКОР<br></br>АКЦІІ</p>
-  <div className="Footer3_2_2"><p> <br></br>ЕКСПОРТ<br></br>ДОСТАВКА ТА ОПЛАТА<br></br>СПІВПРАЦЯ<br></br>КОНТАКТИ</p></div> </div>
+  <div className="Footer3_2_2"><p> <br></br>
+  <Link
+  to="/exporttea">ЕКСПОРТ</Link>
+  <br></br>ДОСТАВКА ТА ОПЛАТА<br></br>СПІВПРАЦЯ<br></br>КОНТАКТИ</p></div> </div>
 </div>
 
 

@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 //import Home from './Home';
-import ExportTea from './ExportTea';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ExportTea />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
